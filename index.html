@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="sk">
   <head>
     
     <!-- Google tag (gtag.js) -->
@@ -10,7 +10,6 @@
 
   gtag('config', 'G-T3EG263XVG');
 </script>
-    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,42 +33,42 @@
               <span class="line line3"></span>
           </div>
           <ul class="menu-items">
-              <li><a href="#home">Náš príbeh</a></li>
-              <li><a href="#program">Program</a></li>
-              <li><a href="#meet-place">Svadobné menu</a></li>
-              <li><a href="#wedding-menu">Miesto konania</a></li>
+              <li><a href="#home">O Nás</a></li>
+              <li><a href="#photoCarusell">Naše Fotky</a></li>
+              <li><a href="#program">Svadobný Program</a></li>
+              <li><a href="#meet-place">Svadobné Menu</a></li>
+              <li><a href="#wedding-menu">Miesto Konania</a></li>
           </ul>
           <h1 class="logo">L&B</h1>
       </div>
   </nav>
     <section class="showcase-area" id="showcase">
       <div class="showcase-container">
-        <h1 class="main-title" id="home">Náš príbeh</h1>
+        <h1 class="main-title">Náš príbeh</h1>
         <p>Vítame Vás na našom svadobnom webe.</p>
+        </div>
         <!-- <a href="#food-menu" class="btn btn-primary">Menu</a> a-->
     </section>
 
     <section>
-      <div class="about-wrapper container">
-        <div class="about-text">
-          <div class="avatar-list-container">
-            <div class="avatar-menu-item">
-              <div class="avatar-img">
-                <img src="https://scontent.fbts4-1.fna.fbcdn.net/v/t1.6435-9/75603936_3645344372158414_1179175050549395456_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=FuozN7I2HGcAX9CdrXy&_nc_ht=scontent.fbts4-1.fna&oh=00_AfCL7539-J7B7oB7d6_zujQGN7xmbjLNpsv0_KpMTmL0uQ&oe=64B51212" alt="" />
-              </div>
-              <div class="avatar-description">
-                <h2 class="avatar-titile">Lucka</h2>
-                <p>
-                  Lucka je tiche, velmi mile a poctive dievca, rada veci planuje aby ju nic neprekvapilo
-                </p>
-                <ul class="avatar-list">
-                  <li>Vsade chodi na cas</li>
-                  <li>Vsetko si dopredu planuje</li>
-                  <li>Premysla nad vsetkymi katastrofickymi scenarmi</li>
-                  <li>Nema rada necakane zmeny</li>
-                </ul>
-
-              </div>
+      <div class="avatar-menu-container container" id="home">
+        <div class="avatar-list-container">
+          <div class="avatar-menu-item">
+            <div class="avatar-img">
+              <img src="https://scontent.fbts4-1.fna.fbcdn.net/v/t1.6435-9/75603936_3645344372158414_1179175050549395456_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=FuozN7I2HGcAX9CdrXy&_nc_ht=scontent.fbts4-1.fna&oh=00_AfCL7539-J7B7oB7d6_zujQGN7xmbjLNpsv0_KpMTmL0uQ&oe=64B51212" alt="" />
+            </div>
+            <div class="avatar-description">
+              <h2 class="avatar-titile">Lucka</h2>
+              <p>
+                Lucka je tiche, velmi mile a poctive dievca, rada veci planuje aby ju nic neprekvapilo
+              </p>
+              <ul class="avatar-list">
+                <li>Vsade chodi na cas</li>
+                <li>Vsetko si dopredu planuje</li>
+                <li>Premysla nad vsetkymi katastrofickymi scenarmi</li>
+                <li>Nema rada necakane zmeny</li>
+              </ul>
+            </div>
 
             </div>
             <div class="avatar-menu-item">
@@ -77,7 +76,7 @@
                 <img src="https://media.licdn.com/dms/image/D4E03AQHxh1fqRpFOiQ/profile-displayphoto-shrink_800_800/0/1684231177104?e=1692230400&v=beta&t=6CEbAf72B7n7n6HRBestKG8HTNXJViik3EguJwT8b_g" alt="" />
               </div>
               <div class="avatar-description">
-                <h2 class="avatar-titile">Branko</h2>
+                <h2 class="avatar-titile">Brano</h2>
                 <p>
                   Branko rad rozprava, je velmi priatelsky ma rad ked moze bar co ojebat a prinesie mu to prospech.
                 </p>
@@ -89,12 +88,24 @@
                 </ul>
               </div>
             </div>
-          </div>
         </div>
 
       </div>
     </section>
-    
+
+    <section id="photoCarusell">
+      <div class="avatar-menu-container container"><div class="avatar-list-container"></div>
+      <div class=" w3-display-container"> <!-- w3-display-container robi ze su tlacidla na kraji a-->
+        <img class="mySlides" src="./images/mainPhoto1.png" style="width:100%">
+        <img class="mySlides" src="./images/mainPhoto2.png" style="width:100%">
+        <img class="mySlides" src="./images/mainPhoto1.png" style="width:100%">
+        <img class="mySlides" src="./images/mainPhoto2.png" style="width:100%">
+
+        <button class="w3-display-left buttonCarusell" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-display-right buttonCarusell" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      </div>
+    </section>
 
     <section id="program">
       <div class="about-wrapper container">
@@ -122,7 +133,7 @@
           <img src="https://hiddencdn.s3-ap-southeast-2.amazonaws.com/events/events_72_1604640274.jpg" alt="food" />
         </div>
       </div>
-
+    </section>
     <section id="meet-place">
       <h2 class="food-menu-heading">Svadobné menu</h2>
       <div class="food-menu-container container">
@@ -133,25 +144,23 @@
           <div class="food-description">
             <h2 class="food-titile">Polievka</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
+              Ako prvý chod budeme podávať lahodný slepačí vývar, ktorým si môžete zahriať chute a začať si večer s eleganciou.
             </p>
-           <!-- <p class="food-price">Price: &#8377; 250</p> -->
+            <!-- <p class="food-price">Price: &#8377; 250</p> -->
           </div>
         </div>
 
         <div class="food-menu-item">
           <div class="food-img">
             <img
-              src="https://www.southernliving.com/thmb/KLv2GAL15FwFl82lhQVAYcIRmsQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living_27386_ST_-Spring-Mix_19664-66db92e1ec044cf98250712d7a764303.jpg"
-              alt="error"
+                    src="https://www.southernliving.com/thmb/KLv2GAL15FwFl82lhQVAYcIRmsQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living_27386_ST_-Spring-Mix_19664-66db92e1ec044cf98250712d7a764303.jpg"
+                    alt="error"
             />
           </div>
           <div class="food-description">
             <h2 class="food-titile">Hlavný chod</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
+              Pre mäsové milovníkov sme pripravili výber výborne pečeného mäsa, ktoré je šťavnaté a plné chuti.
             </p>
             <!-- <p class="food-price">Price: &#8377; 250</p> -->
           </div>
@@ -163,8 +172,7 @@
           <div class="food-description">
             <h2 class="food-titile">Sladký bar</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
+              V rámci sladkých pochúťok vás očarí sladký bar Alchýmia, ktorý je známy svojimi dokonalými dezertmi a dobrotami.
             </p>
             <!-- <p class="food-price">Price: &#8377; 250</p> -->
           </div>
@@ -176,8 +184,7 @@
           <div class="food-description">
             <h2 class="food-titile">Slané pochutiny</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
+              Slané pochutiny budú zahŕňa aj obľúbené pagáče, ktoré sú vynikajúcou voľbou pre tých, ktorí radi ochutnávajú rôzne slané špeciality
             </p>
             <!-- <p class="food-price">Price: &#8377; 250</p> -->
           </div>
@@ -211,7 +218,6 @@
       </div>
     </section>
 
-        </section>
     <section id="wedding-menu">
       <h2 class="miesto-konania">Miesto konania svadby</h2>
       <br>
@@ -234,7 +240,7 @@
         </div>
         <div class="food-type vegetable">
           <div class="img-container">
-            <img src="https://www.poctivepotraviny.sk/_files/farmer-photos/0c1f725759b9dbc5e9c893b3f78c5d9d.jpg" alt="error" />
+            <img src="https://cf.bstatic.com/xdata/images/hotel/max500/204394612.jpg?k=7758be4c31b15640f61bb212266b933b7f086790dd624beb01da287f4893832b&o=&hp=1" alt="error" />
             <div class="img-content">
               <h3>hostina</h3>
               <a
@@ -305,5 +311,22 @@
         } // End if
       });
     });
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
   </script>
 </html>
