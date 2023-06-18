@@ -46,22 +46,8 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
-/* ............/W3 code/............ *
-/* ..........////Carusel category///........... */
-.w3-tooltip,.w3-display-container{position:relative}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
+/* ............/navbar/............ *
 
-.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
-.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
-.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
-
-
-
-/* .........../Button setup/............ */
-.buttonCarusell{
-  padding: 50% 90px 50% 90px;
-  display: block;
-  opacity: 100%;
-}
 /* desktop mode............/// */
 
 .navbar input[type="checkbox"],
@@ -157,7 +143,6 @@ body {
 .about-wrapper {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 60px;
 }
 
 #about h2 {
@@ -181,7 +166,6 @@ body {
   font-size: 3rem;
   color: #666;
   font-weight: 500;
-  padding-bottom: 60px;
 }
 
 @keyframes about-img-animation {
@@ -220,8 +204,8 @@ body {
   font-size: 3.4rem;
   font-weight: 400;
   color: #666;
-  padding-top: 90px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .miesto-konania {
@@ -279,12 +263,6 @@ body {
 
 /* ........./ People list /.......... */
 
-.avatar-menu-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px 0px 0px 0px;
-}
-
 .avatar-list-container img {
   display: block;
   width: 250px;
@@ -295,9 +273,6 @@ body {
   background-color: #000;
 }
 .avatar-list-container p {
-  padding: 20px;
-}
-.avatar-list-container ul {
   padding: 20px;
 }
 
@@ -531,20 +506,6 @@ body {
     font-weight: 500;
   }
 
-  .avatar-menu-container img {
-    margin: auto;
-  }
-
-  .avatar-titile {
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  .avatar-menu-item {
-    flex-direction: column;
-    text-align: left;
-  }
-
   .logo {
     position: absolute;
     top: 5px;
@@ -602,39 +563,13 @@ body {
     text-align: center;
   }
 
-  .food-menu-heading {
-    padding-bottom: 30px;
-  }
-
   .food-menu-container img {
     margin: auto;
-  }
-
-  .food-menu-container p {
-    margin-bottom: 35px;
   }
 
   .food-menu-item {
     flex-direction: column;
     text-align: center;
-  }
-
-  .food-titile{
-    margin-top: 25px;
-  }
-
-  .avatar-menu-container img {
-    margin: auto;
-  }
-
-  .avatar-titile {
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  .avatar-menu-item {
-    flex-direction: column;
-    text-align: left;
   }
 
   .form-container {
@@ -649,19 +584,6 @@ body {
   .contact-img {
     width: 90%;
     margin: 3rem auto;
-  }
-
-  .about-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 0px;
-  }
-
-  .small {
-    font-size: 3rem;
-    color: #666;
-    font-weight: 500;
-    padding-bottom: 30px;
   }
 
   .logo {
