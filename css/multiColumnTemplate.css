@@ -255,7 +255,7 @@ body {
   opacity: 0;
   z-index: 2;
   text-align: center;
-  transition: all 0.3s ease-in-out 0.1s;
+  transition: all 1s ease-in-out 0.1s;
 }
 
 .img-content h3 {
@@ -762,6 +762,12 @@ body {
     padding: 50% 100px 50% 100px;
     display: block;
     opacity: 10%;
+  }
+  .ifframe {
+    position: relative;
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
   }
 }
 
