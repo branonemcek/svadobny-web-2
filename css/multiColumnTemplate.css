@@ -139,8 +139,8 @@ body {
   justify-content: center;
   text-align: center;
   height: 100%;
-  font-size: 4rem;
-  padding-bottom: 800px;
+  font-size: 3rem;
+  padding-bottom: 500px;
   opacity: 85%;
 }
 
@@ -152,12 +152,12 @@ body {
 }
 .main-title-p {
 font-weight: 400;
-  font-size: 2.9rem;
+  font-size: 2rem;
   opacity: 95%;
 }
 .main-title-p2 {
   font-weight: 300;
-    font-size: 2.9rem;
+    font-size: 2rem;
     opacity: 95%;
   }
 .divko{
@@ -676,7 +676,7 @@ font-weight: 400;
     text-align: center;
     height: 100%;
     font-size: 2.1rem;
-    padding-bottom: 950px;
+    padding-bottom: 500px;
     
   }
   
