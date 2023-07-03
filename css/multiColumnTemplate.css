@@ -129,6 +129,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 50px;
+  padding: 10%;
 }
 
 .showcase-container {
@@ -136,15 +137,33 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 100%;
-  font-size: 2rem;
-  padding-bottom: 500px;
-  opacity: 90%;
+  font-size: 4rem;
+  padding-bottom: 800px;
+  opacity: 85%;
 }
+
 
 .main-title {
   text-transform: uppercase;
-  margin-top: 1.5em;
+  margin-top: 1.68em;
+  margin-bottom: 0.4em;
+}
+.main-title-p {
+font-weight: 400;
+  font-size: 2.9rem;
+  opacity: 95%;
+}
+.main-title-p2 {
+  font-weight: 300;
+    font-size: 2.9rem;
+    opacity: 95%;
+  }
+.divko{
+  visibility: hidden;
+  margin-top: -80px;
+  margin-bottom: -65px;
 }
 
 /* ......//about us//...... */
@@ -530,7 +549,7 @@ body {
 
 /* ......../ media query /.......... */
 
-@media (max-width: 768px) {
+@media (max-width: 1250px) {
   .navbar {
     opacity: 0.95;
   }
@@ -649,6 +668,41 @@ body {
     transform: rotate(-35deg);
   }
 
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    font-size: 2.1rem;
+    padding-bottom: 950px;
+    
+  }
+  
+  
+  .main-title {
+    text-transform: uppercase;
+    margin-top: 1.68em;
+    opacity: 95%;
+  }
+  .main-title-p {
+  font-weight: 400;
+    font-size: 2rem;
+    opacity: 95%;
+    margin-bottom: 30px;
+  }
+  .main-title-p2 {
+    font-weight: 400;
+      font-size: 1.5rem;
+      opacity: 100%;
+    }
+  .divko{
+    visibility: hidden;
+  margin-top: -20px;
+
+  }
+
   /* ......./ food /......... */
 
   .food-container {
@@ -669,9 +723,44 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 620px) {
   html {
     font-size: 65%;
+  }
+
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    height: 100%;
+    font-size: 4rem;
+    padding-bottom: 500px;
+    
+  }
+  
+  
+  .main-title {
+    text-transform: uppercase;
+    margin-top: 1.68em;
+    opacity: 85%;
+  }
+  .main-title-p {
+  font-weight: 400;
+    font-size: 4.3rem;
+    opacity: 90%;
+    margin-bottom: 30px;
+  }
+  .main-title-p2 {
+    font-weight: 400;
+      font-size: 3rem;
+      opacity: 100%;
+    }
+  .divko{
+    visibility: visible;
+    margin: 0.1em;
+
   }
 
   .navbar .menu-items li{
@@ -684,7 +773,7 @@ body {
   }
 
   .food-menu-heading {
-    padding-bottom: 30px;
+    padding-bottom: 1px;
   }
 
   .food-menu-container img {
@@ -771,15 +860,7 @@ body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
-  .img-container h3 {
-    font-size: 1.5rem;
-  }
 
-  .img-container .btn {
-    font-size: 0.7rem;
-  }
-}
 
 @media (orientation: landscape) and (max-height: 500px) {
   .showcase-area {
