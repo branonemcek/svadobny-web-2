@@ -177,6 +177,7 @@ font-weight: 400;
   display: flex;
   flex-wrap: wrap;
   padding-top: 60px;
+  margin-left: 10%;
 }
 
 #about h2 {
@@ -215,6 +216,14 @@ font-weight: 400;
   margin: auto;
   transform: translate(-150%);
   animation: about-text-animation 1s ease-in-out forwards;
+}
+
+.about-text p {
+  padding-left: 35px;
+}
+
+.about-text  {
+  padding-left: 10px;
 }
 
 @keyframes about-text-animation {
